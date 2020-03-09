@@ -1,0 +1,88 @@
+9th March, 2020
+
+- Add support for viewing changelog from updater
+- Kernel update
+- Fix SELinux denial for lineage livedisplay
+- Remove HD notification (@WiZaRd981)
+- Disable debug.sf.latch_unsignaled
+- Clean up dirac
+- Properly enable VoLTE for MTS (250 mcc)
+- March security patch
+
+28th February, 2020
+
+- Merged new CAF kernel release
+- Merged new CAF tag device changes
+- Improved offline Charging
+- Built with clang 10.0.4
+- Remove MIUI watermark
+- Compiler optimization
+- PNG optimization
+- Removed kcal
+
+27th February, 2020
+
+- Enabled OTA
+
+22nd February, 2020
+
+- Kernel up-streamed to 4.4.214
+- Added wireguard (https://www.wireguard.com/) kernel module
+- Fix sound issues
+- Enable VoLTE/VoWIFI/ViLTE for some carriers
+- New brightness and vibration values from Google Pixel 3a
+- New LMK
+
+11th February, 2020
+
+- Kernel upstream to 4.4.213
+- Upstreamed Kernel to newest Caf release
+- February Security Patch
+- Updated Vendor Blobs to newest available CAF files
+- Display saturation changed back to stock default
+
+29th January, 2020
+
+- Disable animateScreenLights
+- Disable Display Modes and Picture Adjustment
+- Remove Lineage Trust from manifest
+- Enable ro.telephony.use_old_mnc_mcc_format
+- sepolicy: Add sysfs Label for Platinas Fpc Fingerprint
+- overlay: Enable VoLTE/VoWIFI for Digi Mobil
+- Enable VoLTE/WoWIFI for Megafone, MTS and Tele2/ECC/Volgogr
+- Enable Wifi Calling for India users (Not tested)
+- init.qcom.post_boot: enable LPMs for bengal
+- init.qcom.post_boot: Update scheduler settings for lito
+- update sku frequency for SA8155P
+- Bring-Up changes for newer upgrade.
+- Perf:increase touch boost duration
+- post_boot: update frequencies based on sku feature id.
+- post_boot: Update hi-speed freq for rev 2.1
+- sepolicy: allow appdomain to get persist_camera_prop
+- Add missing radio device info for qcrild
+- Merge tag 'LA.UM.8.2.r2-00600-sdm660.0'
+- camera: Update Chromatix from Jasmine 10 release
+- camera: Reorder Arcsoft Camera blobs
+- camera: Update Camera Configs (xml) from Jasmine 10 release
+- camera: Update Chromatix from Jasmine 10 release
+- camera: Update Actuator from Jasmine 10 release
+- camera: Update Camera Configs (xml) from Jasmine 10 release
+- Add missing camera files for Ai support
+- Update DRM from Jasmine 10 Release
+- Update Gatekeeper from Jasmine 10 Release
+- Update Keymaster from Jasmine 10 Release
+- Add missing qfp-daemon
+
+24th January, 2020
+
+- Fix VoIP Call Reboot issue
+- Kernel upstream to 4.4.210
+- Update Blobs (Audio, Fingerprint, IR, WiFi, Sensor, Charger, Dirac, Widevine, Thermal)
+- Update Blobs from MI A2 10 Release (All blobs except Camera) 
+- Updated Configs from MI A2 10 Release (GPS, Media, Audio, WiFi)
+- Remove XiaomiParts
+- Fix Camera Watermark
+- January Security Patch
+- Fix Call Speaker for some users
+- Fixed 4K video recording
+- Downgraded Fingerprint Blobs (Fix CPU Stuck at max freq) 

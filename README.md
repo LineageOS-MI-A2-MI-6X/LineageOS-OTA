@@ -1,6 +1,6 @@
 # LineageOS 17.1 Updater for MI A2 & MI 6X
 
-This repo is for tracking LineageOS 17.1 unofficial builds for devices with codenames jasmine_sprout and wayne.
+This repo is for tracking LineageOS 17.1 unofficial builds OTA updates along with their changelogs for devices with codenames jasmine_sprout and wayne.
 
 Unofficial LineageOS builds XDA threads:
 
