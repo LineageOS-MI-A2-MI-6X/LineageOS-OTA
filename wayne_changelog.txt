@@ -1,3 +1,15 @@
+31st March, 2020
+
+- Kernel updated to 4.4.217
+- Kernel updated to newest CAF 
+- Fix ThermalEngine crash
+- Resolve sepolicy denials
+- Merged device changes from CAF
+- Update blobs from LA.UM.8.2.r1-05700-sdm660.0
+- sdm660-common: Restore better load balancing on boot
+- sdm660-common: fix double defined bluetooth library call
+- vendor: Optimised pngs resources
+
 9th March, 2020
 
 - Add support for viewing changelog from updater

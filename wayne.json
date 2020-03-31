@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1583774178,
-      "filename": "lineage-17.1-20200309-UNOFFICIAL-wayne.zip",
-      "id": "c9b8980a78c30c15c595f75451236577",
+      "datetime": 1585671805,
+      "filename": "lineage-17.1-20200331-UNOFFICIAL-wayne.zip",
+      "id": "29df7844c8ec00a7a5ef7d0bb64c0695",
       "romtype": "unofficial",
-      "size": 805738687,
-      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/wayne/lineage-17.1-20200309-UNOFFICIAL-wayne.zip",
+      "size": 770051038,
+      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/wayne/lineage-17.1-20200331-UNOFFICIAL-wayne.zip",
       "version": "17.1"
     }
   ]
