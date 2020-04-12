@@ -1,3 +1,35 @@
+12th April, 2020
+
+- Kernel updated to 4.4.218
+- April security patch
+- sdm660-common: Unify DRM and Keymaster libs
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06300-sdm660.0
+- New power HAL:
+
+- sdm660-common: Add Pixel power HAL
+- sdm660-common: Enable Pixel power HAL
+- sdm660-common: Set permissions for nodes used by power HAL
+- sdm660-common: power-libperfmgr: User root -> system, sdm660-common: Remove TARGET_USES_INTERACTION_BOOST flag
+- sdm660-common: power-libperfmgr: Add support for tap-to-wake feature control
+- sdm660-common: power: Add support for second tap-to-wake node
+- sdm660-common: power-libperfmgr: Follow symlinks when writing to dt2w toggle path
+- sdm660-common: power-libperfmgr: Remove ATRACE instances
+- sdm660-common: Import Pixel power HAL SELinux policy from Essentail tree
+- sdm660: powerhint: Import powerhint for sdm660
+- sdm660: Kang libqti-perfd blobs from Taimen QP1A.190711.020
+- sdm660: Update powerhint for better performance
+- sdm660: overlay: Let's really fix the flicker issue this time
+- sdm660: Remove power hal from manifest
+- power-libperfmgr: add support for another dt2w node
+- New GPS HAL(s):
+
+Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/gps "LA.UM.8.2.r1-06300-sdm660.0"
+Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr "LA.UM.8.2.r1-06300-sdm660.0"
+
+- Fixed reboot in hotspot mode (ipacm: Fix WLAN tethering offload)
+- Added missing scve BLOB
+- OTA: Add overlay for LineageOS updater app (Thanks to https://t.me/@S_trace)
+
 31st March, 2020
 
 - Kernel updated to 4.4.217
