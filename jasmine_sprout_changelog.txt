@@ -1,3 +1,71 @@
+18th April, 2020
+
+- Kernel updated to 4.4.219
+- ARM: dts: sdm660: Adjust LED configuration
+- soc: qcom: system_stats: Enable debugfs usage for wahoo
+- qcacld-3.0: Enable debugfs usage for wahoo
+- Fix dm-verity (Thanks to https://t.me/gabe_1606 , https://t.me/clannad/)
+- SafetyNet bypass: Show androidboot.verifiedbootstate=green
+- Revert "md: disable dm-verity"
+- Revert "ARM: dts: Disable verity checks on boot"
+- Update fstab_AB.qcom
+- Adjust fstab
+- Add verity to sdm660.mk
+- Mark /system as verify
+- Support Lens Switch
+- Audio: Add speaker gain combo in mixer path
+- Audio: Add hph-lowpower-mode
+- sdm660-common: light: Fix double led lighting when notification
+- Configure blkio
+- sdm660: power: nuke wlan power_stat by BoardConfig flag
+- sdm660-common: Let Home button work when fingerprint is touched for jason
+- sdm660: Update blobs from LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: sepolicy: Adress few denials
+- sdm660-common: power-libperfmgr: Add back powerstats
+- sdm660-common: powerhint: increase launch hints duration
+- sdm660-common: powerhint: add GPU launch hints
+- sdm660-common: powerhint: disable audio related hints
+- sdm660-common: powerhint: add new GPU nodes
+- sdm660-common: fstab: setup 1GB ZRAM
+- sdm660: light: Support Red LED in Lights hal
+- sdm660-common: light: Set saner ramp values
+- sdm660-common: always do printk logging at KERN_WARNING level
+- sdm660-common: rootdir: cleanup init.qcom
+- sdm660-common: Use complete LA.UM.8.2.r1-05700-sdm660.0 SDM graphic stack
+- sdm660-common: sepolicy: Label new TP node
+- sdm660-common: Add whyred support
+- sdm660-common: Move some ril props to SYSTEM_DEFAULT_PROPERTIES
+- sdm660-common: vndk: add vendor packages needed for camera hal
+- sdm660-common: support jason too
+- sdm660-common: sepolicy: Label Video prop
+- sdm660-common: sepolicy: Clean up sepolicy rules
+- sdm660-common: Address SELiunx denials and clean up
+- sdm660-common: sepolicy: Address some denials
+- sdm660-common: sepolicy: Label button backlight nodes
+- sdm660-common: sepolicy: Drop unused sysfs_light
+- sdm660-common: sepolicy: Label IR dev node for jason
+- sdm660-common: sepolicy: Label renamed white led node
+- sdm660: sepolicy: Allow vendor init to set few props
+- sdm660-common: Support button backlight
+- sdm660-common: Don't advertise attention light
+- sdm660-common: Improve lights HAL
+- sdm660-common: light: Set blink as last parameter
+- sdm660-common: light: Set saner ramp values
+- sdm660-common: Adapt Light Hal for commonized sdm660 tree
+- sdm660-common: power: Add support for platina tap-to-wake node
+- sdm660-common: biometrics: Restore Fingerprint permissions from Platina
+- Switch to Clang r353983d
+- sdm660-common: lights: red -> white
+- sdm660: biometrics: Do not remove user database
+- sdm660: let Instagram use HAL[2,3] camera APIs
+- sdm660-common: Disable AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE
+- power-libperfmgr: add support for another dt2w node
+- sdm660: Update blobs from LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: Import necessary DRM blobs for Netflix to work correctly
+- sdm660-common: Use full LA.UM.8.2.r1-05700-sdm660.0 SDM graphic stack
+- sdm660-common: support jason too
+- sdm660-common: Add whyred support
+
 12th April, 2020
 
 - Kernel updated to 4.4.218
@@ -28,12 +96,12 @@ Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la
 
 - Fixed reboot in hotspot mode (ipacm: Fix WLAN tethering offload)
 - Added missing scve BLOB
-- OTA: Add overlay for LineageOS updater app (Thanks to https://t.me/@S_trace)
+- OTA: Add overlay for LineageOS updater app (Thanks to https://t.me/S_trace)
 
 31st March, 2020
 
 - Kernel updated to 4.4.217
-- Kernel updated to newest CAF 
+- Kernel updated to newest CAF
 - Fix ThermalEngine crash
 - Resolve sepolicy denials
 - Merged device changes from CAF
@@ -49,7 +117,7 @@ Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la
 - Add support for viewing changelog from updater
 - Kernel update
 - Fix SELinux denial for lineage livedisplay
-- Remove HD notification (https://t.me/@WiZaRd981)
+- Remove HD notification (https://t.me/WiZaRd981)
 - Disable debug.sf.latch_unsignaled
 - Clean up dirac
 - Properly enable VoLTE for MTS (250 mcc)
@@ -124,11 +192,11 @@ _ Add missing camera files for Ai support
 - Fix VoIP Call Reboot issue
 - Kernel upstream to 4.4.210
 - Update Blobs (Audio, Fingerprint, IR, WiFi, Sensor, Charger, Dirac, Widevine, Thermal)
-- Update Blobs from MI A2 10 Release (All blobs except Camera) 
+- Update Blobs from MI A2 10 Release (All blobs except Camera)
 - Updated Configs from MI A2 10 Release (GPS, Media, Audio, WiFi)
 - Remove XiaomiParts
 - Fix Camera Watermark
 - January Security Patch
 - Fix Call Speaker for some users
 - Fixed 4K video recording
-- Downgraded Fingerprint Blobs (Fix CPU Stuck at max freq) 
+- Downgraded Fingerprint Blobs (Fix CPU Stuck at max freq)
