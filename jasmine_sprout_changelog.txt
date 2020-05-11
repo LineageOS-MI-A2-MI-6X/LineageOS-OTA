@@ -1,3 +1,83 @@
+11th May, 2020
+
+- Kernel upstreamed to 4.4.223
+- Switch to EAS from HMP
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
+- wayne: Import sensors from common vendor
+- sdm660-common: Downgrade GPS HAL to LA.UM.8.2.r1-05100-sdm660.0
+- sdm660-common: Introduce choosable APEX
+- Disable force encryption for now
+- sdm660-common: remove double defined overlay
+- sdm660-common: Add missing folio_daemon/main.cpp file
+- sdm660-common: init: remove double definied services
+- sdm660-common: Fix A2DP when offload is disabled
+- sdm660-common: Remove Speed-Profiled vendor jars contents.
+- sdm660-common: rework manifest based on caf
+- sdm660-common: dont build a 32 bit version of displayservice
+- sdm660-common: 60 seconds as default screen timeout
+- sdm660-common: move A/B stuff to common
+- sdm660-common: rootdir: remove unused init.mdm.sh
+- sdm660-common: add hostapd configuration files from caf
+- sdm660-common: import irqbalance from caf
+- sdm660-common: build radio config 1.1
+- sdm660-common: import compatibility matrix from caf
+- sdm660-common: switch to blueprints where it's possible
+- sdm660-common: rootdir: update init.class_main
+- sdm660-common: remove redundant overlays
+- sdm660-common: format fstabs
+- sdm660-common: overlay: Remove unneeded network radio and iwlan overlays 
+- sdm660-common: prop: cleanup radio props
+- sdm660-common: change default network
+- sdm660-common: config NTP with the secondary server
+- sdm660-common: adjust audio props
+- sdm660-common: enable speaker protection only for jason
+- sdm660-common: don't show navbar by default
+- sdm660-common: set button brightness default to 64
+- sdm660-common: jason: fix fp home button
+- sdm660-common: Decommonize FM radio
+- sdm660: overlay: Disable fingerprint swipe gesture in common
+- sdm660: Telephony: Add volteReplacementRat and enable SMS shift tables
+- sdm660: overlay: Inject IccPhoneBookInterfaceManager in Telephony
+- sdm660-common: overlay: Switch to old Auto Selection Network UI
+- sdm660-common: use cortex-a73 for arm64
+- sdm660-common: Update OpenGL drivers to version V@454.0 and Vulkan drivers to 1.1.128
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0 
+- sdm660: power: cleanup tap to wake nodes
+- sdm660-common: prop: fix property override for lmkd
+- sdm660: audio: remove unneeded a2dp offload xml
+- sdm660-common: Set kRampStepDuration = 250
+- sdm660-common: init: Resolve kernel trace_marker permissions on post-fs
+- common_prop:Remove GoogleCamera from Blacklist
+- Cosmetics:Just make Uniform Led Ramps
+- common: remove KPI marker at ADSP start 
+- IMS: Disable VT for specific operator
+- IMS: Add carrier config.
+- sdm660-common: drop sensors from common vendor
+- Set background_gc=on flag
+- Force encrypt with footer
+- Fix encryption that got broken in 905a1d6
+- sdm660-common: Add node for whyred dt2w
+- telephony: Split uicc records loading in two groups.
+- telephony: Fetching IMSI from RUIM properly
+- telephony: Fix wrong APN list issue for multimode SIM cards.
+- jasmine: add device specific cryptfs_hw
+- jasmine: Remove TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO
+- Revert "jasmine_sprout: Enable APEX for fbe devices" because APEX can be used as a backdoor
+- jasmine_sprout: Enable APEX for fbe devices
+- jasmine: Set Bootanimation Res
+- jasmine: switch to blueprints where it's possible
+- jasmine: move A/B stuff to common
+- jasmine: overlay: Enable config_showNavigationBar
+- jasmine_sprout: overlay: Enable fingerprint swipe gesture
+- jasmine: audio: set in_voice_rec_headset_mic
+- Nuke twrp
+- Update lineage.dependencies
+- Remove package org.codeaurora.snapcam from exposing aux camera
+- jasmine: init: Switch to new Tap to wake Node
+- jasmine_sprout: remove system symlink from TWRP cpio
+- jasmine: prepare for new kernel
+- Add Charger max voltage as 9V From Stock
+
 18th April, 2020
 
 - Kernel updated to 4.4.219
@@ -33,7 +113,6 @@
 - sdm660-common: rootdir: cleanup init.qcom
 - sdm660-common: Use complete LA.UM.8.2.r1-05700-sdm660.0 SDM graphic stack
 - sdm660-common: sepolicy: Label new TP node
-- sdm660-common: Add whyred support
 - sdm660-common: Move some ril props to SYSTEM_DEFAULT_PROPERTIES
 - sdm660-common: vndk: add vendor packages needed for camera hal
 - sdm660-common: support jason too
