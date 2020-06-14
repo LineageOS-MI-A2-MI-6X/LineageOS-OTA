@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1589189734,
-      "filename": "lineage-17.1-20200511-UNOFFICIAL-jasmine_sprout.zip",
-      "id": "dad93e3eb0a8881d113fff209d4e1e26",
+      "datetime": 1591767492,
+      "filename": "lineage-17.1-20200610-UNOFFICIAL-jasmine_sprout.zip",
+      "id": "c52cd849944f3059888bc908112a74ec",
       "romtype": "unofficial",
-      "size": 824049847,
-      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/jasmine_sprout/lineage-17.1-20200511-UNOFFICIAL-jasmine_sprout.zip",
+      "size": 780240863,
+      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/jasmine_sprout/lineage-17.1-20200610-UNOFFICIAL-jasmine_sprout.zip",
       "version": "17.1"
     }
   ]
