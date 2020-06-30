@@ -1,3 +1,39 @@
+29thJune, 2020
+
+sdm660-common: Switch to qti bluetooth stack
+sdm660-common: Exclude Snap overlays from RRO
+sdm660-common: Exclude lineage-sdk overlays from RRO
+sdm660-common: Enforce RRO for all resource overlays
+sdm660-common: allow auto-brightness while in doze
+sdm660-common: Switch to QTI bt stack and enable a2dp offload
+sdm660-common: Change USB autosuspend delay to 7s by commandline.
+sdm660-common: wifi: remove duplicated configs
+sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
+sdm660-common: rootdir: cleanup init.qcom
+sdm660-common: Drop CAF Adaptive LMK script
+sdm660-common: Switch lmkd to use minfree levels for kill decisions
+sdm660-common: Don't set ro.alarm_boot
+sdm660-common: add qcom early boot script
+sdm660-common: rootdir: always use lz4 for compression
+sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
+sdm660-common: rootdir: cleanup init.qcom
+sdm660-common: Drop CAF Adaptive LMK script
+sdm660-common: Switch lmkd to use minfree levels for kill decisions
+sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpressure
+sdm660-common: Update lmkd configuration properties
+sdm660-common: Disable PPR on all targets
+sdm660-common: Add 2 more notification icons
+sdm660: props: enable zygote preforking
+sdm660-common: Make FM radio opt-in 
+sdm660: props: enable zygote preforking
+sdm660-common: Make FM radio opt-in
+sdm660-common: Enable call recording
+wayne: Remove keymap of headset buttons
+wayne: Update SPL from LA.UM.8.2.r1-06700-sdm660.0
+kernel: Upstreamed to kernel version 4.4.228
+kernel: Latest wireguard and caf tags merged
+kernel: For more kernel changes visit: https://github.com/LineageOS-MI-A2-MI-6X/android_kernel_xiaomi_sdm660/commits/master
+
 10th June, 2020
 
 sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0 

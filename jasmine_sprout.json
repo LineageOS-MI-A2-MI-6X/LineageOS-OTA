@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1591767492,
-      "filename": "lineage-17.1-20200610-UNOFFICIAL-jasmine_sprout.zip",
-      "id": "c52cd849944f3059888bc908112a74ec",
+      "datetime": 1593452039,
+      "filename": "lineage-17.1-20200629-UNOFFICIAL-jasmine_sprout.zip",
+      "id": "906193e345b2d723af8b7d8f70c01fdf",
       "romtype": "unofficial",
-      "size": 780240863,
-      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/jasmine_sprout/lineage-17.1-20200610-UNOFFICIAL-jasmine_sprout.zip",
+      "size": 782857181,
+      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200629/lineage-17.1-20200629-UNOFFICIAL-jasmine_sprout.zip",
       "version": "17.1"
     }
   ]
