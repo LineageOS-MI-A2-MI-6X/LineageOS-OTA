@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1591800509,
-      "filename": "lineage-17.1-20200610-UNOFFICIAL-wayne.zip",
-      "id": "7a3748fb9b533f3c2838114865c99cf8",
+      "datetime": 1593499373,
+      "filename": "lineage-17.1-20200630-UNOFFICIAL-wayne.zip",
+      "id": "d6f942c6c62bfcb0504714b2c5a1c163",
       "romtype": "unofficial",
-      "size": 808609320,
-      "url": "https://master.dl.sourceforge.net/project/shoukolate-los17-1-builds/wayne/lineage-17.1-20200610-UNOFFICIAL-wayne.zip",
+      "size": 808969021,
+      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200630/lineage-17.1-20200630-UNOFFICIAL-wayne.zip",
       "version": "17.1"
     }
   ]
