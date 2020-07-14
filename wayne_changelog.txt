@@ -1,99 +1,111 @@
+13th July, 2020
+
+- sdm660-common: data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
+- IMS: Enable IMS feature flags for supported carriers
+- sdm660_64: perf hal support 
+- Add RRO Target flag for falcon_64
+- Kernel updated to 4.4.230
+- net: wireguard: update wireguard to version 1.0.20200712
+- July security patch
+
 30th June, 2020
 
-RIL fixed
+- RIL fixed
 
 29th June, 2020
 
-sdm660-common: Switch to qti bluetooth stack
-sdm660-common: Exclude Snap overlays from RRO
-sdm660-common: Exclude lineage-sdk overlays from RRO
-sdm660-common: Enforce RRO for all resource overlays
-sdm660-common: allow auto-brightness while in doze
-sdm660-common: Switch to QTI bt stack and enable a2dp offload
-sdm660-common: Change USB autosuspend delay to 7s by commandline.
-sdm660-common: wifi: remove duplicated configs
-sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
-sdm660-common: rootdir: cleanup init.qcom
-sdm660-common: Drop CAF Adaptive LMK script
-sdm660-common: Switch lmkd to use minfree levels for kill decisions
-sdm660-common: Don't set ro.alarm_boot
-sdm660-common: add qcom early boot script
-sdm660-common: rootdir: always use lz4 for compression
-sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
-sdm660-common: rootdir: cleanup init.qcom
-sdm660-common: Drop CAF Adaptive LMK script
-sdm660-common: Switch lmkd to use minfree levels for kill decisions
-sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpressure
-sdm660-common: Update lmkd configuration properties
-sdm660-common: Disable PPR on all targets
-sdm660-common: Add 2 more notification icons
-sdm660: props: enable zygote preforking
-sdm660-common: Make FM radio opt-in 
-sdm660: props: enable zygote preforking
-sdm660-common: Make FM radio opt-in
-sdm660-common: Enable call recording
-wayne: Remove keymap of headset buttons
-wayne: Update SPL from LA.UM.8.2.r1-06700-sdm660.0
-kernel: Upstreamed to kernel version 4.4.228
-kernel: Latest wireguard and caf tags merged
-kernel: For more kernel changes visit: https://github.com/LineageOS-MI-A2-MI-6X/android_kernel_xiaomi_sdm660/commits/master
+- sdm660-common: Switch to qti bluetooth stack
+- sdm660-common: Exclude Snap overlays from RRO
+- sdm660-common: Exclude lineage-sdk overlays from RRO
+- sdm660-common: Enforce RRO for all resource overlays
+- sdm660-common: allow auto-brightness while in doze
+- sdm660-common: Switch to QTI bt stack and enable a2dp offload
+- sdm660-common: Change USB autosuspend delay to 7s by commandline.
+- sdm660-common: wifi: remove duplicated configs
+- sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
+- sdm660-common: rootdir: cleanup init.qcom
+- sdm660-common: Drop CAF Adaptive LMK script
+- sdm660-common: Switch lmkd to use minfree levels for kill decisions
+- sdm660-common: Don't set ro.alarm_boot
+- sdm660-common: add qcom early boot script
+- sdm660-common: rootdir: always use lz4 for compression
+- sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
+- sdm660-common: rootdir: cleanup init.qcom
+- sdm660-common: Drop CAF Adaptive LMK script
+- sdm660-common: Switch lmkd to use minfree levels for kill decisions
+- sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpressure
+- sdm660-common: Update lmkd configuration properties
+- sdm660-common: Disable PPR on all targets
+- sdm660-common: Add 2 more notification icons
+- sdm660: props: enable zygote preforking
+- sdm660-common: Make FM radio opt-in 
+- sdm660: props: enable zygote preforking
+- sdm660-common: Make FM radio opt-in
+- sdm660-common: Enable call recording
+- wayne: Remove keymap of headset buttons
+- wayne: Update SPL from LA.UM.8.2.r1-06700-sdm660.0
+- kernel: Upstreamed to kernel version 4.4.228
+- kernel: Latest wireguard and caf tags merged
+
+For more kernel changes visit: https://github.com/LineageOS-MI-A2-MI-6X/android_kernel_xiaomi_sdm660/commits/master
 
 10th June, 2020
 
-sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0 
-sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
-sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0
-sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
-sdm660-common: Move IOP and ESE Blobs from product to vendor
-sdm660-common: Remove unused lower-end codecs
-sdm660-common: Increase audio HAL buffer size to 240
-sdm660-common: init: Remove unexistent sensor service
-sdm660-common: Add Esepowermanager blobs from LA.UM.8.2.r1-06500-sdm660
-sdm660-common: Add IOP Hal blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: prop: Set Perf related Props
-sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
-sdm660-common: prop: Add persist.vendor.dpm.nsrm.bkg.evt prop
-sdm660-common: sepolicy: Allow dpmd set ctl_stop_prop
-sdm660-common: Is dpmservice the product permission?
-sdm660-common: Update Sensor Blobs to CAF
-sdm660-common: Update Display utils Blobs
-sdm660: update bdroid_buildcfg values from caf
-sdm660-common: Rebase on cr-8.0-hmp tree
-sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
-sdm660-common: Move IOP adn ESE Blobs from product to vendor 
-sdm660-common: Add ESE and IOP Blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
-sdm660-common: Update Sensor Blobs to CAF
-sdm660-common: Update Display utils Blobs
-sdm660-common: Drop Power-off charging daemon
-sdm660-common: Drop Power-off charging daemon
-sdm660-common: Downgrade IMS libs to LA.UM.8.2.r1-06200-sdm660.0
-sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: Update audio blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660: Update GPS from LA.UM.8.2.r1-06200-sdm660.0
-sdm660-common: Import Audio Blobs from LA.UM.8.2.r1-06200-sdm660.0
-sdm660-common: Add sigma miracast blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: update adsp blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: add missing cDSP libs from LA.UM.8.2.r1-06500-sdm660.0 
-wayne-common: Use Caf Sensor Blobs from common
-wayne-common: Update ACDB from V11.0.8.0.QDIMIXM jasmine 
-wayne-common: Update Camera to MIUI 12 Weekly Version 20.5.21
-wayne-common: Transform into commom tree for jasmine and wayne
-wayne-common: Remove Audio Blobs
-wayne-common: move cdsp remandants to common
-kernel: Upstreamed kernel to 4.4.226
-kernel: Merged new caf tags
-kernel: Updated wireguard (check version on git tree)
-wayne: Switch to caf sensors in common tree
-wayne: Add wayne-common inherit support for extractor
-configs: Add echo reference for voip/voice call in bt-sco path
-configs: Add backend config for handset TMU operator device
-wayne: Remove Audio Blobs 
-wayne: move cdsp remandants to common
-wayne: keylayout: remap headset keys to right functions 
-wayne: audio: add bt acdb for voip apps
-wayne: Set Correct Tap to Wake node for HMP Power Hal
+- sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0 
+- sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
+- sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
+- sdm660-common: Move IOP and ESE Blobs from product to vendor
+- sdm660-common: Remove unused lower-end codecs
+- sdm660-common: Increase audio HAL buffer size to 240
+- sdm660-common: init: Remove unexistent sensor service
+- sdm660-common: Add Esepowermanager blobs from LA.UM.8.2.r1-06500-sdm660
+- sdm660-common: Add IOP Hal blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: prop: Set Perf related Props
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
+- sdm660-common: prop: Add persist.vendor.dpm.nsrm.bkg.evt prop
+- sdm660-common: sepolicy: Allow dpmd set ctl_stop_prop
+- sdm660-common: Is dpmservice the product permission?
+- sdm660-common: Update Sensor Blobs to CAF
+- sdm660-common: Update Display utils Blobs
+- sdm660: update bdroid_buildcfg values from caf
+- sdm660-common: Rebase on cr-8.0-hmp tree
+- sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
+- sdm660-common: Move IOP adn ESE Blobs from product to vendor 
+- sdm660-common: Add ESE and IOP Blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
+- sdm660-common: Update Sensor Blobs to CAF
+- sdm660-common: Update Display utils Blobs
+- sdm660-common: Drop Power-off charging daemon
+- sdm660-common: Drop Power-off charging daemon
+- sdm660-common: Downgrade IMS libs to LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update audio blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660: Update GPS from LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: Import Audio Blobs from LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: Add sigma miracast blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: update adsp blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: add missing cDSP libs from LA.UM.8.2.r1-06500-sdm660.0 
+- wayne-common: Use Caf Sensor Blobs from common
+- wayne-common: Update ACDB from V11.0.8.0.QDIMIXM jasmine 
+- wayne-common: Update Camera to MIUI 12 Weekly Version 20.5.21
+- wayne-common: Transform into commom tree for jasmine and wayne
+- wayne-common: Remove Audio Blobs
+- wayne-common: move cdsp remandants to common
+- kernel: Upstreamed kernel to 4.4.226
+- kernel: Merged new caf tags
+- kernel: Updated wireguard (check version on git tree)
+- wayne: Switch to caf sensors in common tree
+- wayne: Add wayne-common inherit support for extractor
+- configs: Add echo reference for voip/voice call in bt-sco path
+- configs: Add backend config for handset TMU operator device
+- wayne: Remove Audio Blobs 
+- wayne: move cdsp remandants to common
+- wayne: keylayout: remap headset keys to right functions 
+- wayne: audio: add bt acdb for voip apps
+- wayne: Set Correct Tap to Wake node for HMP Power Hal
+- June security patch
 
 11th May, 2020
 
@@ -168,6 +180,7 @@ wayne: Set Correct Tap to Wake node for HMP Power Hal
 - wayne: init: Switch to new Tap to wake Node
 - wayne: prepare for new kernel
 - Add and remove some packages for exposing aux camera
+- May security patch
 
 18th April, 2020
 

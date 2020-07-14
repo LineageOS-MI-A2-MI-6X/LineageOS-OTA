@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1593495605,
-      "filename": "lineage-17.1-20200630-UNOFFICIAL-jasmine_sprout.zip",
-      "id": "1745f0f550fb47aae79cd96ce7432d14",
+      "datetime": 1594740015,
+      "filename": "lineage-17.1-20200714-UNOFFICIAL-jasmine_sprout.zip",
+      "id": "a12453e93ceda48a9c4e3dc99f6d220b",
       "romtype": "unofficial",
-      "size": 782862170,
-      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200630/lineage-17.1-20200630-UNOFFICIAL-jasmine_sprout.zip",
+      "size": 781460314,
+      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200714/lineage-17.1-20200714-UNOFFICIAL-jasmine_sprout.zip",
       "version": "17.1"
     }
   ]
