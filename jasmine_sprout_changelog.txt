@@ -1,3 +1,16 @@
+8th August, 2020
+
+configs: Add built-in/Back mic and remove TelePhony Rx from primary input
+sdm660-common: prop: Disable a2dp offload by default
+sdm660-common: overlay: Rework doze Autobrightness values
+sdm660-common: prop: Set Perf related Props from sdm660
+sdm660-common: Don't advertise vorbis offloading support
+IMS: Filter out the conference host in the CEP for some carriers
+kernel: Upstream kernel to Linux 4.4.232
+kernel: Merge latest wireguard
+configs: allocate dedicated pcm node for in call recording
+jasmine: Set AB Updater flag for Backuptool include
+
 13th July, 2020
 
 - sdm660-common: data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
