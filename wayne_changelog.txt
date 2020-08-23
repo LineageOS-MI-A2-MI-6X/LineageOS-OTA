@@ -1,3 +1,13 @@
+24th August, 2020
+
+- sdm660-common: Address denials for Livedisplay
+- sdm660-common: overlay: Remove doze Autobrightness values 
+- Fix in call "forced loudspeaker" bug
+- kernel: Upstreamed to kernel version 4.4.233
+- kernel: Latest wireguard and caf tags merged
+
+For more detailed changes about kernel visit: https://github.com/LineageOS-MI-A2-MI-6X/android_kernel_xiaomi_sdm660/commits/master
+
 8th August, 2020
 
 configs: Add built-in/Back mic and remove TelePhony Rx from primary input

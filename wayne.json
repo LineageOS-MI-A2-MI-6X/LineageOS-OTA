@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1596917163,
-      "filename": "lineage-17.1-20200808-UNOFFICIAL-wayne.zip",
-      "id": "d82dbd874aff909274e46ced5f1b6378",
+      "datetime": 1598208030,
+      "filename": "lineage-17.1-20200823-UNOFFICIAL-wayne.zip",
+      "id": "40e5811f4351b8771f93e722aa8bb608",
       "romtype": "unofficial",
-      "size": 812823140,
-      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200808/lineage-17.1-20200808-UNOFFICIAL-wayne.zip",
+      "size": 812844524,
+      "url": "https://github.com/LineageOS-MI-A2-MI-6X/LineageOS-OTA/releases/download/20200823/lineage-17.1-20200823-UNOFFICIAL-wayne.zip",
       "version": "17.1"
     }
   ]
